@@ -4,3 +4,25 @@
 # Пример:
 # A (3,6); B (2,1) -> 5,09
 # A (7,-5); B (1,-1) -> 7,21
+
+print("Расстояние между точками в 2D пространстве:")
+print()
+import numpy as np
+
+print("Введите координаты точки X1: ")
+x1 = float(input())
+
+print("Введите координаты точки Y1: ")
+y1 = float(input())
+
+print("Введите координаты точки X2: ")
+x2 = float(input())
+
+print("Введите координаты точки Y2: ")
+y2 = float(input())
+
+result = np.sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2))
+a = round(result, 2)
+print()
+print("Расстояние между точками равно: " f'{a}')
+print()
