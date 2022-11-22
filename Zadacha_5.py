@@ -23,7 +23,6 @@ y2 = float(input())
 
 result = np.sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2))
 a = round(result, 2)
-
 print()
 print("Расстояние между точками равно: " f'{a}')
 print()
